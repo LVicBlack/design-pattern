@@ -1,6 +1,6 @@
-package com.vic.designpattern.simpleFactory.impl;
+package com.vic.designpattern.p01simpleFactory.demo1.impl;
 
-import com.vic.designpattern.simpleFactory.ICar;
+import com.vic.designpattern.p01simpleFactory.demo1.ICar;
 
 
 public class JeepCar implements ICar {

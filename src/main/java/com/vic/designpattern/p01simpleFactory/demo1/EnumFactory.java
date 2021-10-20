@@ -1,11 +1,11 @@
-package com.vic.designpattern.simpleFactory;
+package com.vic.designpattern.p01simpleFactory.demo1;
 
-import com.vic.designpattern.simpleFactory.impl.HatchbackCar;
-import com.vic.designpattern.simpleFactory.impl.JeepCar;
-import com.vic.designpattern.simpleFactory.impl.SportCar;
+import com.vic.designpattern.p01simpleFactory.demo1.impl.HatchbackCar;
+import com.vic.designpattern.p01simpleFactory.demo1.impl.JeepCar;
+import com.vic.designpattern.p01simpleFactory.demo1.impl.SportCar;
 
 
-public enum Factory {
+public enum EnumFactory {
     HATCHBACK(new HatchbackCar(), "HATCHBACK"),
     JEEP(new JeepCar(), "JEEP"),
     SPORT(new SportCar(), "SPORT");
@@ -16,7 +16,7 @@ public enum Factory {
 
     // 普通方法
     public static ICar getCar(String name) {
-        for (Factory c : Factory.values()) {
+        for (EnumFactory c : EnumFactory.values()) {
             if (c.name == name) {
                 return c.car;
             }
@@ -25,7 +25,7 @@ public enum Factory {
     }
 
     // 构造方法
-    private Factory(ICar car, String name) {
+    private EnumFactory(ICar car, String name) {
         this.car = car;
         this.name = name;
     }
