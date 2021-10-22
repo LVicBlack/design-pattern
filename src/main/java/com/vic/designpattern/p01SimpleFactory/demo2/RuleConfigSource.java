@@ -1,6 +1,8 @@
 package com.vic.designpattern.p01SimpleFactory.demo2;
 
 import com.vic.designpattern.exception.DefaultException;
+import com.vic.designpattern.p01SimpleFactory.demo2.parser.IRuleConfigParser;
+import com.vic.designpattern.p01SimpleFactory.demo2.pojo.RuleConfig;
 import org.junit.Test;
 
 public class RuleConfigSource {
@@ -23,7 +25,7 @@ public class RuleConfigSource {
     }
 
     @Test
-    public void test(){
+    public void test() {
         RuleConfig ruleConfig = load("Json");
         System.out.println(ruleConfig);
     }

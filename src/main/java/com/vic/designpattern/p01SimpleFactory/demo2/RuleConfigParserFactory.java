@@ -1,9 +1,10 @@
 package com.vic.designpattern.p01SimpleFactory.demo2;
 
-import com.vic.designpattern.p01SimpleFactory.demo2.impl.JsonRuleConfigParser;
-import com.vic.designpattern.p01SimpleFactory.demo2.impl.PropertiesRuleConfigParser;
-import com.vic.designpattern.p01SimpleFactory.demo2.impl.XmlRuleConfigParser;
-import com.vic.designpattern.p01SimpleFactory.demo2.impl.YamlRuleConfigParser;
+import com.vic.designpattern.p01SimpleFactory.demo2.parser.IRuleConfigParser;
+import com.vic.designpattern.p01SimpleFactory.demo2.parser.impl.JsonRuleConfigParser;
+import com.vic.designpattern.p01SimpleFactory.demo2.parser.impl.XmlRuleConfigParser;
+import com.vic.designpattern.p01SimpleFactory.demo2.parser.impl.YamlRuleConfigParser;
+import com.vic.designpattern.p01SimpleFactory.demo2.parser.impl.PropertiesRuleConfigParser;
 
 import java.util.HashMap;
 import java.util.Map;

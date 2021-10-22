@@ -1,7 +1,8 @@
 package com.vic.designpattern.p02Factory.demo2;
 
 import com.vic.designpattern.exception.DefaultException;
-import com.vic.designpattern.p01SimpleFactory.demo2.RuleConfig;
+import com.vic.designpattern.p01SimpleFactory.demo2.pojo.RuleConfig;
+import com.vic.designpattern.p02Factory.demo2.factory.IRuleConfigParserFactory;
 import org.junit.Test;
 
 public class RuleConfigSource {

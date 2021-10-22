@@ -1,4 +1,4 @@
-package com.vic.designpattern.p01SimpleFactory.demo2;
+package com.vic.designpattern.p01SimpleFactory.demo2.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

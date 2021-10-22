@@ -1,9 +1,10 @@
 package com.vic.designpattern.p02Factory.demo2;
 
-import com.vic.designpattern.p02Factory.demo2.impl.JsonRuleConfigParserFactory;
-import com.vic.designpattern.p02Factory.demo2.impl.PropertiesRuleConfigParserFactory;
-import com.vic.designpattern.p02Factory.demo2.impl.XmlRuleConfigParserFactory;
-import com.vic.designpattern.p02Factory.demo2.impl.YamlRuleConfigParserFactory;
+import com.vic.designpattern.p02Factory.demo2.factory.IRuleConfigParserFactory;
+import com.vic.designpattern.p02Factory.demo2.factory.impl.JsonRuleConfigParserFactory;
+import com.vic.designpattern.p02Factory.demo2.factory.impl.PropertiesRuleConfigParserFactory;
+import com.vic.designpattern.p02Factory.demo2.factory.impl.XmlRuleConfigParserFactory;
+import com.vic.designpattern.p02Factory.demo2.factory.impl.YamlRuleConfigParserFactory;
 
 import java.util.HashMap;
 import java.util.Map;
