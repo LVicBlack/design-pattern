@@ -1,4 +1,4 @@
-package com.vic.designpattern.ChainOfResponsibility.demo2;
+package com.vic.designpattern.chainOfResponsibility.demo2;
 
 import lombok.extern.slf4j.Slf4j;
 

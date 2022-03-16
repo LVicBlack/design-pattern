@@ -1,6 +1,6 @@
-package com.vic.designpattern.ChainOfResponsibility.demo2;
+package com.vic.designpattern.chainOfResponsibility.demo2;
 
-import com.vic.designpattern.ChainOfResponsibility.demo1.Handler;
+import com.vic.designpattern.chainOfResponsibility.demo1.Handler;
 import org.junit.Test;
 
 import java.util.ArrayList;
